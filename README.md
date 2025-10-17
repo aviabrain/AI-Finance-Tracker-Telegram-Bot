@@ -36,19 +36,23 @@ bash git clone https://github.com/aviabrain/AI-Finance-Tracker-Telegram-Bot.git
 ```
 
 2.  **Install Dependencies:**
-    *   Navigate into the project directory: `cd AI-Finance-Tracker-Telegram-Bot`
-    *   Install the required Python libraries: `pip install -r requirements.txt`
-
+    *   Navigate into the project directory and install the required Python libraries 
+```bash
+cd AI-Finance-Tracker-Telegram-Bot && pip install -r requirements.txt
+```
 3.  **Add Your API Keys:**
     *   Open the `main.py` file in a text editor.
     *   Find the following lines and paste your API keys:
-        ```python
+        `
         TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
         OPENAI_API_KEY = "YOUR_OPENAI_API_KEY"
-        ```
+        `
 
 4.  **Run the Bot:**
-    *   Execute the script from your terminal: `python main.py`
+    *   Execute the script from your terminal:
+```bash
+python main.py
+```
 
 ### Step 4: Start Using Your Bot in Telegram
 
