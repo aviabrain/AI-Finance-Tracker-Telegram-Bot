@@ -30,11 +30,11 @@ This is an open-source Telegram bot that helps you track your personal finances 
 ### Step 3: Set Up the Bot on Your Server
 
 1.  **Download the Code:**
-    *   Clone this repository to your server: `git clone [URL of your GitHub repository]`
+    *   Clone this repository to your server: `git clone https://github.com/aviabrain/AI-Finance-Tracker-Telegram-Bot.git`
 
 2.  **Install Dependencies:**
-    *   Navigate into the project directory: `cd [repository name]`
-    *   Install the required Python libraries: `pip install python-telegram-bot openai matplotlib`
+    *   Navigate into the project directory: `cd AI-Finance-Tracker-Telegram-Bot`
+    *   Install the required Python libraries: `pip install -r requirements.txt`
 
 3.  **Add Your API Keys:**
     *   Open the `main.py` file in a text editor.
